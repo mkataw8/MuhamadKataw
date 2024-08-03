@@ -80,14 +80,15 @@ const Contact = () => {
       </div>
 
       {option === "resume" ? (
-        <div className="bg-slate-300 p-6 rounded-lg shadow-md text-sky-700 w-auto">
+        <div className="bg-slate-300 p-6 rounded-lg shadow-md text-sky-700 w-full h-full max-w-[650px]">
           <h3 className="text-xl font-semibold mb-4 text-center">My Resume</h3>
-          <iframe
-            src={resume}
-            className="w-full h-[600px]"
-            title="Resume"
-          ></iframe>
-
+          <div className="relative w-full" style={{ paddingTop: "75%" }}>
+            <iframe
+              src={resume}
+              className="absolute top-0 left-0 w-full h-full border-none"
+              title="Resume"
+            ></iframe>
+          </div>
           <div className="flex justify-center mt-4">
             <a
               href={resume}
