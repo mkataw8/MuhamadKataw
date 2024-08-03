@@ -80,7 +80,7 @@ const Contact = () => {
       </div>
 
       {option === "resume" ? (
-        <div className="bg-slate-300 p-6 rounded-lg shadow-md text-sky-700 w-[650px]">
+        <div className="bg-slate-300 p-6 rounded-lg shadow-md text-sky-700 w-auto">
           <h3 className="text-xl font-semibold mb-4 text-center">My Resume</h3>
           <iframe
             src={resume}
