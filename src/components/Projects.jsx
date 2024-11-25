@@ -1,25 +1,27 @@
 import React from "react";
+import fastant from "../assets/fastant.png";
 import journal from "../assets/journal.jpeg";
+import wardrobe from "../assets/wardrobe.png";
 
 const projects = [
   {
-    name: "P&L Journal",
-    image: journal, // Replace with the actual image URL
-    liveCodeLink: "https://nextjs-app-rust-two.vercel.app",
-    githubLink: "https://github.com/mkataw8/nextjs-app",
+    name: "Fastant",
+    image: fastant, // Replace with the actual image URL
+    liveCodeLink: "https://fastant.vercel.app",
+    githubLink: "https://github.com/mkataw8/stocks",
   },
   {
-    name: "Project 2",
+    name: "P&L Journal ",
     image: journal, // Replace with the actual image URL
-    liveCodeLink: "https://live-code-link.com/project2",
-    githubLink: "https://github.com/username/project2",
+    liveCodeLink: "https://nextjs-jw1e5heoq-mkataw8-gmailcom.vercel.app",
+    githubLink: "https://github.com/mkataw8/nextjs-app",
   },
 
   {
-    name: "Project 3",
-    image: journal, // Replace with the actual image URL
-    liveCodeLink: "https://live-code-link.com/project2",
-    githubLink: "https://github.com/username/project2",
+    name: "Wardrobe",
+    image: wardrobe, // Replace with the actual image URL
+    liveCodeLink: "https://thewardrobe.vercel.app/",
+    githubLink: "https://github.com/mkataw8/thewardrobe",
   },
   // Add more projects as needed
 ];
